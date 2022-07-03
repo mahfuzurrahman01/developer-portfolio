@@ -1,13 +1,42 @@
 *{
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #070707;
+    color: aliceblue;
 }
-h1{
+.divone h1{
     font-size: 40px;
     font-weight: bold;
     color: aliceblue;
 }
 span{
     color: #4d648d;
+
+}
+.divone h3{
+    color: aliceblue;
+    font-weight: bold;
+}
+section{
+    display: flex;
+}
+.divone{
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 5px;
+    margin-top: 40px;
+}
+.divtwo{
+    width: 50%;
+}
+.divtwo img{
+    width: 85%;
+}
+.divone a{
+    border: 2px solid transparent;
+    text-decoration: none;
+    background-color: #4d648d;
+    padding: 9px;
+    font-size: 22px;
+    border-radius: 9px;
     
 }
