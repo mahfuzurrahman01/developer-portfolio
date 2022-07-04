@@ -3,6 +3,8 @@
     background-color: black;
     color: aliceblue;
     box-sizing: border-box;
+    position: relative;
+    
 
 }
 
@@ -30,9 +32,7 @@ span {
     display: flex;
     background-image: url(images/Untitled\ design.png);
     background-repeat: no-repeat;
-
-
-
+    margin-bottom: 110px;
 }
 
 .divone {
@@ -58,7 +58,12 @@ span {
     font-size: 22px;
     border-radius: 9px;
     font-weight: 700;
+    
 
+
+}
+.divone a:hover{
+    text-decoration: underline;
 
 }
 .secondone{
@@ -90,5 +95,26 @@ span {
     padding: 9px 38px;
     font-size: 22px;
     border-radius: 9px;
+    font-weight: 700;
+}
+.divfifth {
+    display: flex;
+    margin-top: 60px;
+}
+
+.experience-item{
+    
+    width: 50%;
+    box-shadow: 15px 15px 60px #4d648d;
+    padding: 20px 10px 20px 30px;
+    margin: 0px 20px 30px 30px;
+    border-left: 9px solid #4d648d;
+}
+.experience-item h1{
+    font-size: 40px;
+}
+.experience-item h3{
+    color: #4d648d;
+    font-size: 27px;
     font-weight: 700;
 }
