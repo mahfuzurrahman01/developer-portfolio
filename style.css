@@ -4,7 +4,7 @@
     color: aliceblue;
     box-sizing: border-box;
     position: relative;
-    
+
 
 }
 
@@ -58,37 +58,46 @@ span {
     font-size: 22px;
     border-radius: 9px;
     font-weight: 700;
-    
+
 
 
 }
-.divone a:hover{
+
+.divone a:hover {
     text-decoration: underline;
 
 }
-.secondone{
+
+.secondone {
     display: flex;
-   
+    margin-bottom: 130px;
+
 }
-.divthree{
+
+.divthree {
     width: 50%;
 }
-.divthree img{
+
+.divthree img {
     width: 85%;
 }
-.divfour{
+
+.divfour {
     width: 50%;
     padding-right: 6%;
     padding-top: 17%;
 }
-.divfour h1{
+
+.divfour h1 {
     font-size: 50px;
 }
-.divfour h3{
+
+.divfour h3 {
     font-size: 30px;
     font-weight: 700;
 }
-.divfour a{
+
+.divfour a {
     border: 2px solid transparent;
     text-decoration: none;
     background-image: linear-gradient(#4d648d, #94A2BA);
@@ -97,24 +106,34 @@ span {
     border-radius: 9px;
     font-weight: 700;
 }
+
+
+
 .divfifth {
     display: flex;
     margin-top: 60px;
 }
 
-.experience-item{
-    
-    width: 50%;
+.experience-item {
+
+    width: 40%;
     box-shadow: 15px 15px 60px #4d648d;
-    padding: 20px 10px 20px 30px;
-    margin: 0px 20px 30px 30px;
+    padding: 20px 10px 90px 40px;
+    margin: 0px 20px 30px 80px;
     border-left: 9px solid #4d648d;
+    border-radius: 10px;
 }
-.experience-item h1{
+
+.experience-item h1 {
     font-size: 40px;
 }
-.experience-item h3{
+
+.experience-item h3 {
     color: #4d648d;
     font-size: 27px;
     font-weight: 700;
+}
+footer p{
+    margin-top: 200px;
+    text-align: center;
 }
